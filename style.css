@@ -1,0 +1,110 @@
+.top1{
+    border:0px  red solid;
+    text-align:center;
+    background-image:linear-gradient(To right, red,green,rgb(253, 253, 56))
+}
+.top2{
+    border:3px solid red;
+    background-color: skyblue;
+   justify-content: center;
+    border-radius:20px;
+    list-style-type:disk;
+    width: 600px;
+    position: relative;
+    left: 300px;
+    padding-left: 430px;
+
+}
+.top3{
+    border:2px black solid;
+    background-color: aquamarine;
+    display: flex;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.child{
+   border: 2px solid rgb(29, 16, 16);
+   width: 400px;
+   border-radius: 15px;
+   text-align: center;
+   margin-left:30px;
+
+
+}
+.top4{
+    border:1px black solid;
+    text-align:center;
+    background-image:linear-gradient(To right, red,yellow,red)
+}
+.top5{
+    border: 2px solid black;
+    height: 250px;
+    display : flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-image: radial-gradient( aquamarine 50%,blue,aquamarine);
+}
+.child2{
+    border: 2px solid red;
+    background-color: yellow;
+    color: red;
+    height: 80px;
+    width:200px;
+    margin:40px;
+    text-align:center;
+    padding:30px;
+    border-radius: 20px;
+}
+.parent{
+border:2px solid black;
+grid-template-columns:auto auto auto auto auto auto;
+display: grid;
+gap: 7px 7px;
+}
+.same{
+    border: 2px black solid;
+}
+.box1{
+text-align: center;
+background-color: red;
+color:white;
+grid-column-end: span 7;
+}
+.box2{
+    grid-column-end: span 2; 
+    color:white;
+text-align: center;
+background-color:rgb(92, 208, 92);
+}
+.box3{
+    color:white;
+    grid-column-end: span 2;
+    background-color:rgb(72, 72, 230);
+}
+.box4{
+    grid-column-end: span 2;
+    color:white;
+    background-color:rgb(61, 6, 61);
+}
+
+.box5{
+    color:white;
+    grid-row-end:span 2;
+    background-color:black
+}
+.box6{
+    color:white;
+    grid-column-end: span 6 ;
+    background-color:rgb(134, 94, 18)
+}
+.box7{
+    color:white;
+    grid-column-end:span 6; 
+    background-color:aquamarine; 
+    margin-top: 20px;;
+}
+
+
